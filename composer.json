@@ -1,0 +1,34 @@
+{
+  "name": "noxkiwi/hook",
+  "description": "I am the hook system for events in noxkiwi applications.",
+  "version": "1.0.0",
+  "type": "package",
+  "license": "proprietary",
+  "keywords": [
+    "hook",
+    "event",
+    "fire"
+  ],
+  "homepage": "https://nox.kiwi/",
+  "time": "2021-01-26",
+  "authors": [
+    {
+      "name": "Jan Nox",
+      "email": "jan@nox.kiwi",
+      "homepage": "https://nox.kiwi",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0",
+    "noxkiwi/singleton": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "noxkiwi\\hook\\": "backend/class/"
+    }
+  }
+}
