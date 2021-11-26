@@ -9,7 +9,7 @@ use noxkiwi\singleton\Singleton;
  * I am the Hook class
  *
  * @package      noxkiwi\hook
- * @author       Jan Nox <jan@nox.kiwi>
+ * @author       Jan Nox <jan.nox@pm.me>
  * @license      https://nox.kiwi/license
  * @copyright    2021 noxkiwi
  * @version      1.0.0

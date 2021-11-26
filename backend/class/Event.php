@@ -5,7 +5,7 @@ namespace noxkiwi\hook;
  * I am Event collection.
  *
  * @package      noxkiwi\hook
- * @author       Jan Nox <jan@nox.kiwi>
+ * @author       Jan Nox <jan.nox@pm.me>
  * @license      https://nox.kiwi/license
  * @copyright    2021 noxkiwi
  * @version      1.0.0
