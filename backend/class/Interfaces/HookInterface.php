@@ -6,7 +6,7 @@ namespace noxkiwi\hook\Interfaces;
  * I will run any given callable when the event is fired.
  *
  * @package      noxkiwi\hook\Interfaces
- * @author       Jan Nox <jan@nox.kiwi>
+ * @author       Jan Nox <jan.nox@pm.me>
  * @license      https://nox.kiwi/license
  * @copyright    2021 noxkiwi
  * @version      1.0.0
