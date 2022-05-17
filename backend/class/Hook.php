@@ -6,13 +6,13 @@ use noxkiwi\hook\Interfaces\HookInterface;
 use noxkiwi\singleton\Singleton;
 
 /**
- * I am the Hook class
+ * I am the Hook class.
  *
  * @package      noxkiwi\hook
  * @author       Jan Nox <jan.nox@pm.me>
  * @license      https://nox.kiwi/license
- * @copyright    2021 noxkiwi
- * @version      1.0.0
+ * @copyright    2021 - 2022 noxkiwi
+ * @version      1.0.1
  * @link         https://nox.kiwi/
  */
 class Hook extends Singleton implements HookInterface
@@ -40,7 +40,7 @@ class Hook extends Singleton implements HookInterface
     /**
      * @inheritDoc
      */
-    final public function fire(string $event, $arguments = null): mixed
+    final public function fire(string $event, mixed $arguments = null): mixed
     {
         $ret = null;
         foreach ($this->get($event) as $callback) {
